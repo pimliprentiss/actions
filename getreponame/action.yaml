@@ -4,7 +4,7 @@ inputs:
   repository:
     description: 'Repository name in the form owner/reposioty'
     required: true
-    default: 'pimliprentiss/actionstest' #${{ github.repository }}
+    default: 'pimliprentiss/actionstest' 
 outputs:
   repository:
     description: 'Name of the repository'
